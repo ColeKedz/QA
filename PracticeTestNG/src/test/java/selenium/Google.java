@@ -1,4 +1,4 @@
-package Google;
+package selenium;
 
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -16,7 +16,7 @@ import org.openqa.selenium.WebElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-public class searching {
+public class Google {
 	
 	WebDriver driver;
 	
