@@ -1,8 +1,6 @@
 # QA
 This repo has been used to practice setting up a testng project. The repo uses TestNG along with Selenium. 
 
-
-
 Notes for local environment set up
 
 install jdk
@@ -18,6 +16,8 @@ If marketplace is not working, you may need to got to Preferences/ General/ Netw
 
 Install TestNG plugin through eclipse marketplace. Without plugin you will not see the Run | Debug options above your @Test annotation  
 
-
 see pom.xml for list of dependencies
+
+To view test report after running test, open test-output/emailable-report.html
+use report.log( to add entries into this file as the test runs);
 
