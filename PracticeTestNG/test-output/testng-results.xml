@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-12T13:58:14 EDT" name="Default suite" finished-at="2024-10-12T13:58:21 EDT" duration-ms="7425">
+  <suite started-at="2024-10-12T15:20:28 EDT" name="Default suite" finished-at="2024-10-12T15:20:45 EDT" duration-ms="17103">
     <groups>
     </groups>
-    <test started-at="2024-10-12T13:58:14 EDT" name="Default test" finished-at="2024-10-12T13:58:21 EDT" duration-ms="7425">
+    <test started-at="2024-10-12T15:20:28 EDT" name="Default test" finished-at="2024-10-12T15:20:45 EDT" duration-ms="17103">
       <class name="Google.searching">
-        <test-method signature="search()[pri:0, instance:Google.searching@2a4fb17b]" started-at="2024-10-12T13:58:14 EDT" name="search" finished-at="2024-10-12T13:58:21 EDT" duration-ms="7402" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Google.searching@235834f2]" started-at="2024-10-12T15:20:28 EDT" name="setup" finished-at="2024-10-12T15:20:29 EDT" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:0, instance:Google.searching@235834f2]" started-at="2024-10-12T15:20:29 EDT" name="search" finished-at="2024-10-12T15:20:45 EDT" duration-ms="16005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Google.searching@235834f2]" started-at="2024-10-12T15:20:45 EDT" name="tearDown" finished-at="2024-10-12T15:20:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Google.searching -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

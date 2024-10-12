@@ -6,6 +6,8 @@
       <class name="Google.searching">
         <methods>
           <include name="search"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Google.searching -->
     </classes>
