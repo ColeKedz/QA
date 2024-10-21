@@ -1,4 +1,4 @@
-package selenium;
+package testngWithSelenium;
 
 import org.testng.Assert;
 import org.testng.Reporter;

@@ -16,6 +16,10 @@ If marketplace is not working, you may need to got to Preferences/ General/ Netw
 
 Install TestNG plugin through eclipse marketplace. Without plugin you will not see the Run | Debug options above your @Test annotation  
 
+plugins:
+TestNG
+Cucumber
+
 see pom.xml for list of dependencies
 
 To view test report after running test, open test-output/emailable-report.html
