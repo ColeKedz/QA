@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <!-- Testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -13,14 +13,14 @@
     <scope>test</scope>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- Selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.25.0</version>	
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/com.github.bonigarcia/webdrivermanager -->
+<!-- WebDriverManager -->
 <dependency>
  <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
@@ -33,12 +33,26 @@
         </exclusions>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<!-- Rest-Assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
     <version>5.5.0</version>
     <scope>test</scope>
+</dependency>
+
+<!-- Cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.20.1</version>
+</dependency>
+
+<!-- cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.20.1</version>
 </dependency>
 
 

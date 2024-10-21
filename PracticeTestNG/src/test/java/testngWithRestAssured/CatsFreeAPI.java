@@ -1,4 +1,4 @@
-package restAssured;
+package testngWithRestAssured;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.Assert;
