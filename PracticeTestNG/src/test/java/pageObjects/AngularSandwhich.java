@@ -22,9 +22,9 @@ public void selectBread(String bread) {
 	
 }
 
-public void enterOrderName(String name) {
-	WebElement nameField = orderName.findElement(driver);
-	nameField.sendKeys(name);
+public void enterOrderName(WebDriver driver, String name) throws InterruptedException {
+	driver.findElement(orderName).sendKeys(name);
+	Thread.sleep(5000);
 }
 
 
